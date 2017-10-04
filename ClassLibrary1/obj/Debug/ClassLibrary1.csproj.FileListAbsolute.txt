@@ -1,0 +1,29 @@
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\VTV\Downloads\Diplom\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

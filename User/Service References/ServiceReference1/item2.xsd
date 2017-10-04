@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ClassLibrary1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ClassLibrary1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Transfer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Metall" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PriceLOW" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PriceUP" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Proba" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Stone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeightLOW" type="xs:decimal" />
+      <xs:element minOccurs="0" name="WeightUP" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Transfer" nillable="true" type="tns:Transfer" />
+  <xs:complexType name="Goods">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="list" nillable="true" type="tns:ArrayOfGood" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Goods" nillable="true" type="tns:Goods" />
+  <xs:complexType name="ArrayOfGood">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Good" nillable="true" type="tns:Good" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGood" nillable="true" type="tns:ArrayOfGood" />
+  <xs:complexType name="Good">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Describe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Metall" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Photo1" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Photo2" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Photo3" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Photo4" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Price" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Weight" type="xs:decimal" />
+      <xs:element minOccurs="0" name="c_k" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="m_k" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="proba" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="s_k" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="stone" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Good" nillable="true" type="tns:Good" />
+  <xs:complexType name="Order">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Phone" type="xs:long" />
+      <xs:element minOccurs="0" name="SecondName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ThirdName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id_buy" type="xs:int" />
+      <xs:element minOccurs="0" name="when_buy" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Order" nillable="true" type="tns:Order" />
+  <xs:complexType name="Groups">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="list" nillable="true" type="tns:ArrayOfGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Groups" nillable="true" type="tns:Groups" />
+  <xs:complexType name="ArrayOfGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Group" nillable="true" type="tns:Group" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGroup" nillable="true" type="tns:ArrayOfGroup" />
+  <xs:complexType name="Group">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="c_k" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Group" nillable="true" type="tns:Group" />
+  <xs:complexType name="Metalls">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="list" nillable="true" type="tns:ArrayOfMetall" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Metalls" nillable="true" type="tns:Metalls" />
+  <xs:complexType name="ArrayOfMetall">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Metall" nillable="true" type="tns:Metall" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMetall" nillable="true" type="tns:ArrayOfMetall" />
+  <xs:complexType name="Metall">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="m_k" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Metall" nillable="true" type="tns:Metall" />
+  <xs:complexType name="Sales">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="list" nillable="true" type="tns:ArrayOfSale" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Sales" nillable="true" type="tns:Sales" />
+  <xs:complexType name="ArrayOfSale">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Sale" nillable="true" type="tns:Sale" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSale" nillable="true" type="tns:ArrayOfSale" />
+  <xs:complexType name="Sale">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Phone" type="xs:long" />
+      <xs:element minOccurs="0" name="SecondName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ThirdName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="done" type="xs:boolean" />
+      <xs:element minOccurs="0" name="id_buy" type="xs:int" />
+      <xs:element minOccurs="0" name="when_buy" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="when_done" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Sale" nillable="true" type="tns:Sale" />
+  <xs:complexType name="Orders">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="list" nillable="true" type="tns:ArrayOfOrder" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Orders" nillable="true" type="tns:Orders" />
+  <xs:complexType name="ArrayOfOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Order" nillable="true" type="tns:Order" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrder" nillable="true" type="tns:ArrayOfOrder" />
+  <xs:complexType name="customer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="SName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="data" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="login_id" type="xs:int" />
+      <xs:element minOccurs="0" name="phone" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="customer" nillable="true" type="tns:customer" />
+  <xs:complexType name="probas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="list" nillable="true" type="tns:ArrayOfproba" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="probas" nillable="true" type="tns:probas" />
+  <xs:complexType name="ArrayOfproba">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="proba" nillable="true" type="tns:proba" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfproba" nillable="true" type="tns:ArrayOfproba" />
+  <xs:complexType name="proba">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="metall" type="xs:int" />
+      <xs:element minOccurs="0" name="number" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="proba" nillable="true" type="tns:proba" />
+  <xs:complexType name="Stones">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="list" nillable="true" type="tns:ArrayOfStone" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Stones" nillable="true" type="tns:Stones" />
+  <xs:complexType name="ArrayOfStone">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Stone" nillable="true" type="tns:Stone" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStone" nillable="true" type="tns:ArrayOfStone" />
+  <xs:complexType name="Stone">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="s_k" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Stone" nillable="true" type="tns:Stone" />
+</xs:schema>

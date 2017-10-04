@@ -1,0 +1,96 @@
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\adm.exe.config
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\adm.exe
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\adm.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Groups_corr.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\MainWindow.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\App.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm_MarkupCompile.cache
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm_MarkupCompile.lref
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Groups_corr.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\MainWindow.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.g.resources
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.Properties.Resources.resources
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.csproj.GenerateResource.Cache
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.exe
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Metall_cor.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Metall_cor.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Goods_corr.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Goods_corr.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Order_window.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Order_window.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\ClassLibrary1.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\EntityFramework.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\ClassLibrary1.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\EntityFramework.xml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\History_window.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\History_window.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Proba_corr.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Stone_corr.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Proba_corr.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Stone_corr.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\adm.exe.config
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\adm.exe
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\adm.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Goods_corr.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Groups_corr.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\History_window.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\MainWindow.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Metall_cor.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Order_window.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Proba_corr.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Stone_corr.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\App.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm_MarkupCompile.cache
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm_MarkupCompile.lref
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Goods_corr.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Groups_corr.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\History_window.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\MainWindow.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Metall_cor.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Order_window.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Proba_corr.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\Stone_corr.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.g.resources
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.Properties.Resources.resources
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.csproj.GenerateResource.Cache
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.exe
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\adm\obj\Debug\adm.pdb
+C:\Users\VTV\Downloads\Diplom\adm\bin\Debug\adm.exe.config
+C:\Users\VTV\Downloads\Diplom\adm\bin\Debug\adm.exe
+C:\Users\VTV\Downloads\Diplom\adm\bin\Debug\adm.pdb
+C:\Users\VTV\Downloads\Diplom\adm\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Downloads\Diplom\adm\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Downloads\Diplom\adm\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Downloads\Diplom\adm\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Goods_corr.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Groups_corr.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\History_window.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\MainWindow.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Metall_cor.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Order_window.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Proba_corr.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Stone_corr.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\App.g.cs
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm_MarkupCompile.cache
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm_MarkupCompile.lref
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Goods_corr.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Groups_corr.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\History_window.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\MainWindow.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Metall_cor.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Order_window.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Proba_corr.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\Stone_corr.baml
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm.g.resources
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm.Properties.Resources.resources
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm.csproj.GenerateResource.Cache
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm.exe
+C:\Users\VTV\Downloads\Diplom\adm\obj\Debug\adm.pdb

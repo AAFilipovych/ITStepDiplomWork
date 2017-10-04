@@ -1,0 +1,32 @@
+﻿<Window x:Class="adm.Order_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:adm"
+        mc:Ignorable="d"
+         Title="Работа с заказами" Height="333.462" Width="806.25" ResizeMode="NoResize" Background="#FF9EF309">
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="FNtextBox" HorizontalAlignment="Left" Height="24" Margin="263,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="SNtextBox" HorizontalAlignment="Left" Height="22" Margin="263,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="TNtextBox" HorizontalAlignment="Left" Height="24" Margin="263,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="phtextBox" HorizontalAlignment="Left" Height="22" Margin="263,226,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <Label x:Name="lfirstname" Content="Фамилия" HorizontalAlignment="Left" Margin="263,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.003,-0.014" Width="130" Height="26"/>
+        <Label x:Name="lsecondname" Content="Имя" HorizontalAlignment="Left" Margin="263,76,0,0" VerticalAlignment="Top" Width="130" Height="26"/>
+        <Label x:Name="lthirdname" Content="Отчество" HorizontalAlignment="Left" Margin="263,136,0,0" VerticalAlignment="Top" Width="130" Height="26"/>
+        <Label x:Name="lphone" Content="Телефон" HorizontalAlignment="Left" Margin="263,194,0,0" VerticalAlignment="Top" Width="130" Height="26"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="200" Margin="32,41,0,0" VerticalAlignment="Top" Width="200"/>
+        <ListBox x:Name="Buyers_listBox" HorizontalAlignment="Left" Height="201" Margin="418,48,0,0" VerticalAlignment="Top" Width="370" SelectionChanged="Buyers_listBox_SelectionChanged">
+           
+        </ListBox>
+        <Label x:Name="Orders_label" Content="Список заказов в базе данных" HorizontalAlignment="Left" Margin="418,17,0,0" VerticalAlignment="Top" Width="230" Height="26"/>
+        <Button x:Name="Send_Button" Content="ПРИНЯТЬ ЗАКАЗ" HorizontalAlignment="Left" Margin="32,258,0,0" VerticalAlignment="Top" Width="361" Height="34" Click="Send_Button_Click"/>
+        <Button x:Name="del_button" Content="ОТКЛОНИТЬ ЗАКАЗ" HorizontalAlignment="Left" Margin="418,258,0,0" VerticalAlignment="Top" Width="359" Click="del_button_Click" Height="34"/>
+    </Grid>
+</Window>

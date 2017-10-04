@@ -1,0 +1,36 @@
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\ClassLibrary1.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\ClassLibrary1.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\Diplom\obj\Debug\Diplom.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\obj\Debug\Diplom.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\Diplom\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\VTV\Downloads\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\VTV\Downloads\Diplom\Diplom\obj\Debug\Diplom.pdb
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Downloads\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VTV\Downloads\Diplom\Diplom\obj\Debug\Server.csprojResolveAssemblyReference.cache

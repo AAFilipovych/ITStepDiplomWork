@@ -1,0 +1,38 @@
+﻿<Window x:Class="User.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User"
+        mc:Ignorable="d"
+        Title="Регистрация пользователя" Height="309.302" Width="277.519" Background="#FFE2AA16" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="FNtextBox" HorizontalAlignment="Left" Height="23" Margin="10,29,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="SNtextBox" HorizontalAlignment="Left" Height="23" Margin="10,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TNtextBox" HorizontalAlignment="Left" Height="23" Margin="10,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="phtextBox" HorizontalAlignment="Left" Height="23" Margin="10,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lfirstname" Content="Фамилия" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.003,-0.014" Width="120" Height="26"/>
+        <Label x:Name="lsecondname" Content="Имя" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label x:Name="lthirdname" Content="Отчество" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label x:Name="lphone" Content="Телефон" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Button x:Name="button" Content="Зарегистрировать" HorizontalAlignment="Left" Margin="146,165,0,0" VerticalAlignment="Top" Width="120" Click="button_Click" Height="34"/>
+        <TextBox x:Name="textBox_pass" HorizontalAlignment="Left" Height="23" Margin="146,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_pass2" HorizontalAlignment="Left" Height="23" Margin="146,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Пароль" HorizontalAlignment="Left" Margin="146,52,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label x:Name="label1" Content="Подтверждение" HorizontalAlignment="Left" Margin="146,101,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Label x:Name="label2" Content="Логин" HorizontalAlignment="Left" Margin="146,3,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <TextBox x:Name="textBox_log" HorizontalAlignment="Left" Height="23" Margin="146,29,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="47" Margin="10,225,0,0" VerticalAlignment="Top" Width="256">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="label3" Content="Дополнительные данные пользователя" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top" Width="256" Height="26"/>
+    </Grid>
+</Window>

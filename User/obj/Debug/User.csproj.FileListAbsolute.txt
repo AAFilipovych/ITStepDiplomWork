@@ -1,0 +1,72 @@
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\User.exe.config
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\User.exe
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\User.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\ClassLibrary1.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\EntityFramework.dll
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\ClassLibrary1.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\EntityFramework.xml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\MainWindow.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\App.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User_MarkupCompile.cache
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User_MarkupCompile.lref
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\MainWindow.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.g.resources
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.Properties.Resources.resources
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.csproj.GenerateResource.Cache
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.exe
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.pdb
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Order.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Order.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Login.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Registration.g.cs
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Login.baml
+C:\Users\Андрей\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Registration.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\User.exe.config
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.exe
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\User.exe
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\User.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Login.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\MainWindow.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Order.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Registration.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\App.g.cs
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User_MarkupCompile.cache
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User_MarkupCompile.lref
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Login.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\MainWindow.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Order.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\Registration.baml
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.g.resources
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.Properties.Resources.resources
+C:\Users\VTV\Documents\Visual Studio 2015\Projects\Diplom\User\obj\Debug\User.csproj.GenerateResource.Cache
+C:\Users\VTV\Downloads\Diplom\User\bin\Debug\User.exe.config
+C:\Users\VTV\Downloads\Diplom\User\bin\Debug\User.exe
+C:\Users\VTV\Downloads\Diplom\User\bin\Debug\User.pdb
+C:\Users\VTV\Downloads\Diplom\User\bin\Debug\ClassLibrary1.dll
+C:\Users\VTV\Downloads\Diplom\User\bin\Debug\EntityFramework.dll
+C:\Users\VTV\Downloads\Diplom\User\bin\Debug\ClassLibrary1.pdb
+C:\Users\VTV\Downloads\Diplom\User\bin\Debug\EntityFramework.xml
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User.csprojResolveAssemblyReference.cache
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\Login.g.cs
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\MainWindow.g.cs
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\Order.g.cs
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\Registration.g.cs
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\App.g.cs
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User_MarkupCompile.cache
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User_MarkupCompile.lref
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\Login.baml
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\MainWindow.baml
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\Order.baml
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\Registration.baml
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User.g.resources
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User.Properties.Resources.resources
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User.csproj.GenerateResource.Cache
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User.exe
+C:\Users\VTV\Downloads\Diplom\User\obj\Debug\User.pdb

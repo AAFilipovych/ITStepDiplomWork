@@ -1,0 +1,66 @@
+﻿<?xaml encoding="UTF-16"?>
+<Window x:Class="User.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User"
+        mc:Ignorable="d"
+        Title="Вас приветствует интернет-магазин ювелирных товаров!" Height="350" Width="645" ResizeMode="NoResize" Background="#FFEEB00D">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="344,176,0,0" VerticalAlignment="Top" Width="auto"/>
+        <Label x:Name="label" Content="Цена" HorizontalAlignment="Left" Margin="19,32,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Металл" HorizontalAlignment="Left" Margin="12,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.614,1.782" Width="53" Height="26"/>
+        <Label x:Name="label2" Content="Группа" HorizontalAlignment="Left" Margin="12,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.254,-1.423" Width="53" Height="26"/>
+        <Label x:Name="label3" Content="Вес" HorizontalAlignment="Left" Margin="19,171,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.07,0.5"/>
+        <TextBox x:Name="price_tb" HorizontalAlignment="Left" Height="26" Margin="171,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="weight_tb" HorizontalAlignment="Left" Height="26" Margin="169,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42"/>
+        <ComboBox x:Name="Metal_CB" HorizontalAlignment="Left" Margin="92,64,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Metal_CB_SelectionChanged" Visibility="Collapsed"/>
+        <ComboBox x:Name="Category_CB" HorizontalAlignment="Left" Margin="91,117,0,0" VerticalAlignment="Top" Width="120"/>
+        <Image x:Name="Photo1" HorizontalAlignment="Left" Height="110" Margin="387,73,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="-0.563,0.14"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="126" Margin="222,70,0,0" VerticalAlignment="Top" Width="155" SelectionChanged="listBox_SelectionChanged"/>
+        <Image x:Name="Photo2" HorizontalAlignment="Left" Height="110" Margin="502,73,0,0" VerticalAlignment="Top" Width="110"/>
+        <Image x:Name="Photo3" HorizontalAlignment="Left" Height="110" Margin="387,188,0,0" VerticalAlignment="Top" Width="110"/>
+        <Image x:Name="Photo4" HorizontalAlignment="Left" Height="110" Margin="502,190,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.352,0.188"/>
+        <Button x:Name="add_in_cart_button" Content="Добавить в корзину" HorizontalAlignment="Left" Margin="222,201,0,0" VerticalAlignment="Top" Width="155" Height="40" Click="add_in_cart_button_Click" Background="#FF79C32E"/>
+        <Label x:Name="label4" Content="В корзине" HorizontalAlignment="Left" Margin="12,242,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="На сумму" HorizontalAlignment="Left" Margin="12,272,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="order_button" Content="Оформить покупки" HorizontalAlignment="Left" Margin="19,202,0,0" VerticalAlignment="Top" Width="125" Height="40" Click="order_button_Click" Background="#FF23D3CB"/>
+        <Label x:Name="label7" Content="товаров" HorizontalAlignment="Left" Margin="135,246,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label9" Content="гривен" HorizontalAlignment="Left" Margin="135,272,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="count_tb" HorizontalAlignment="Left" Height="22" Margin="86,246,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="38" IsReadOnlyCaretVisible="True" RenderTransformOrigin="-0.14,0.53"/>
+        <TextBox x:Name="amount_tb" HorizontalAlignment="Left" Height="23" Margin="86,277,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="38" IsReadOnlyCaretVisible="True"/>
+        <Button x:Name="send_button" Content="Отправить запрос" HorizontalAlignment="Right" Margin="0,7,430,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Click="button2_Click" Background="#FF7AF566"/>
+        <Button x:Name="cl_button" Content="очистить" HorizontalAlignment="Left" Margin="155,201,0,0" VerticalAlignment="Top" Width="56" Height="40" Click="cl_button_Click" Background="#FFD1846E"/>
+        <TextBox x:Name="bprice_tb" HorizontalAlignment="Left" Height="26" Margin="86,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="38"/>
+        <TextBox x:Name="bweight_tb" HorizontalAlignment="Left" Height="26" Margin="86,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="38"/>
+        <Label x:Name="lpu" Content="до" HorizontalAlignment="Left" Margin="142,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lwu" Content="до" HorizontalAlignment="Left" Margin="142,171,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.119,0.263"/>
+        <Label x:Name="lpb" Content="от" HorizontalAlignment="Left" Margin="59,32,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.054,0.165" Width="22"/>
+        <Label x:Name="lwb" Content="от" HorizontalAlignment="Left" Margin="59,171,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_price" Content="Цена 0 грн" HorizontalAlignment="Left" Margin="232,11,0,0" VerticalAlignment="Top" Width="125" Height="28"/>
+        <Label x:Name="label_weight" Content="Вес 0 грамм" HorizontalAlignment="Left" Margin="232,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.105,-0.135" Width="125"/>
+        <Button x:Name="autorization_button" Content="Авторизация" HorizontalAlignment="Left" Margin="552,11,0,0" VerticalAlignment="Top" Width="75" Click="autorization_button_Click" Height="20" Background="#FF77C0EA"/>
+        <Label x:Name="label6" Content="Вы вошли как:" HorizontalAlignment="Left" Margin="389,11,0,0" VerticalAlignment="Top" Width="158" Height="24"/>
+        <Button x:Name="exit_button" Content="выйти" HorizontalAlignment="Left" Margin="552,39,0,0" VerticalAlignment="Top" Width="75" Click="exit_button_Click" Background="#FFBD90DC"/>
+        <Label x:Name="login_label" Content="Гость" HorizontalAlignment="Left" Margin="389,39,0,0" VerticalAlignment="Top" Width="158"/>
+        <ComboBox x:Name="pr_cb" HorizontalAlignment="Left" Margin="91,91,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label8" Content="Проба" HorizontalAlignment="Left" Margin="12,87,0,0" VerticalAlignment="Top" Width="45"/>
+        <ComboBox x:Name="st_comboBox" HorizontalAlignment="Left" Margin="91,144,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label10" Content="Камни" HorizontalAlignment="Left" Margin="14,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.061,-0.244" Width="51"/>
+        <RichTextBox IsReadOnly="True" x:Name="richTextBox" HorizontalAlignment="Left" Height="45" Margin="222,263,0,0" VerticalAlignment="Top" Width="155">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="label11" Content="Описание товара" HorizontalAlignment="Left" Margin="222,237,0,0" VerticalAlignment="Top" Width="155"/>
+        <Button x:Name="refresh_button" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="19" Click="refresh_button_Click" Height="18" Background="#FFCBA938"/>
+        <CheckBox x:Name="checkBox" Content="Активация фильтра" HorizontalAlignment="Left" Margin="73,66,0,0" VerticalAlignment="Top" Width="136" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
+        <CheckBox x:Name="checkBox_proba" Content="Активация фильтра" HorizontalAlignment="Left" Margin="73,93,0,0" VerticalAlignment="Top" Width="136" Checked="checkBox_proba_Checked" Unchecked="checkBox_proba_Unchecked"/>
+        <CheckBox x:Name="checkBox_group" Content="Активация фильтра" HorizontalAlignment="Left" Margin="73,120,0,0" VerticalAlignment="Top" Width="136" Checked="checkBox_group_Checked" Unchecked="checkBox_group_Unchecked"/>
+        <CheckBox x:Name="checkBox_stone" Content="Активация фильтра" HorizontalAlignment="Left" Margin="73,146,0,0" VerticalAlignment="Top" Width="136" Checked="checkBox_stone_Checked" Unchecked="checkBox_stone_Unchecked"/>
+        <Label x:Name="label_proba" Content="Металл не актививен" HorizontalAlignment="Left" Margin="73,86,0,0" VerticalAlignment="Top" Width="136"/>
+    </Grid>
+</Window>

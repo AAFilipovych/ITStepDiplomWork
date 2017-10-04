@@ -1,0 +1,22 @@
+﻿<Window x:Class="User.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User"
+        mc:Ignorable="d"
+        Title="Вход" Height="206.977" Width="145.736" ResizeMode="NoResize" Background="#FFC3B41A">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="login_textBox" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.484,1.559" Grid.ColumnSpan="2"/>
+        <Label x:Name="label" Content="Логин" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Height="26"/>
+        <Label x:Name="label1" Content="Пароль" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Height="26"/>
+        <TextBox x:Name="pass_textBox" HorizontalAlignment="Left" Height="23" Margin="10,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Button x:Name="login_button" Content="Войти" HorizontalAlignment="Left" Margin="10,123,0,0" VerticalAlignment="Top" Width="120" Click="login_button_Click" Grid.ColumnSpan="2" Height="20"/>
+        <Button x:Name="reg_button" Content="Регистрация" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Width="120" Click="reg_button_Click" Grid.ColumnSpan="2" Height="20"/>
+
+    </Grid>
+</Window>

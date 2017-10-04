@@ -1,0 +1,55 @@
+﻿<Window x:Class="adm.Goods_corr"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:adm"
+        mc:Ignorable="d"
+        Title="Корректировка товаров" Height="377.866" Width="581.971" Background="#FF88DE0C" ResizeMode="NoResize">
+
+    <Grid HorizontalAlignment="Left" Height="344" Margin="10,10,0,0" VerticalAlignment="Top" Width="552">
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="180" Margin="0,37,0,0" VerticalAlignment="Top" Width="143" SelectionChanged="listBox_SelectionChanged"/>
+        <TextBox x:Name="tb_price" HorizontalAlignment="Left" Height="26" Margin="194,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label" Content="Цена
+               " HorizontalAlignment="Left" Margin="149,68,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.569,1.221"/>
+        <Button x:Name="add_button" Content="Добавить" HorizontalAlignment="Left" Margin="160,244,0,0" VerticalAlignment="Top" Width="149" Click="add_button_Click" Height="25" Background="#FF477DF0"/>
+        <Button x:Name="edit_button" Content="Редактировать" HorizontalAlignment="Left" Margin="160,274,0,0" VerticalAlignment="Top" Width="149" Click="edit_button_Click" Height="25" Background="#FFB8AA56"/>
+        <Button x:Name="del_button" Content="Удалить" HorizontalAlignment="Left" Margin="160,304,0,0" VerticalAlignment="Top" Width="146" Click="del_button_Click" Height="25" Background="#FFA44529"/>
+        <Label x:Name="ng_label" Content="Список товаров" HorizontalAlignment="Left" Margin="44,6,0,0" VerticalAlignment="Top" Width="99"/>
+        <ComboBox x:Name="Group_CB" HorizontalAlignment="Left" Margin="202,127,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
+        <ComboBox x:Name="Metal_CB" HorizontalAlignment="Left" Margin="202,154,0,0" VerticalAlignment="Top" Width="120" Height="22" SelectionChanged="Metal_CB_SelectionChanged"/>
+        <Image x:Name="Photo1" HorizontalAlignment="Left" Height="100" Margin="335,29,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="Photo2" HorizontalAlignment="Left" Height="100" Margin="442,29,-46,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="Photo3" HorizontalAlignment="Left" Height="100" Margin="335,200,0,-45" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="Photo4" HorizontalAlignment="Left" Height="100" Margin="442,200,-44,-45" VerticalAlignment="Top" Width="98"/>
+        <Label x:Name="label1" Content="Группа" HorizontalAlignment="Left" Margin="149,127,0,0" VerticalAlignment="Top" Width="49"/>
+        <Label x:Name="label2" Content="Металл" HorizontalAlignment="Left" Margin="148,154,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.6,-0.077"/>
+        <Label x:Name="label3" Content="Фотография 1" HorizontalAlignment="Left" Margin="335,-2,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="label4" Content="Фотография 2" HorizontalAlignment="Left" Margin="440,-2,-44,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="label5" Content="Фотография 3" HorizontalAlignment="Left" Margin="341,169,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="фотография 4" HorizontalAlignment="Left" Margin="442,169,-32,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_foto3" Content="Загрузить фото3" HorizontalAlignment="Left" Height="24" Margin="335,305,0,-74" VerticalAlignment="Top" Width="100" Click="btn_foto3_Click" Background="#FF4497D1"/>
+        <Button x:Name="btn_foto4" Content="Загрузить фото4" HorizontalAlignment="Left" Height="24" Margin="442,305,-44,-74" VerticalAlignment="Top" Width="98" Click="btn_foto4_Click" Background="#FF4895CB"/>
+        <Button x:Name="btn_foto1" Content="Загрузить фото1" HorizontalAlignment="Left" Margin="335,134,0,0" VerticalAlignment="Top" Width="100" Click="btn_foto1_Click" Background="#FF4596CF"/>
+        <Button x:Name="btn_foto2" Content="Загрузить фото2" HorizontalAlignment="Left" Margin="442,134,-44,0" VerticalAlignment="Top" Width="98" Click="btn_foto2_Click" Background="#FF4397D1"/>
+        <TextBox x:Name="tb_name" HorizontalAlignment="Left" Height="23" Margin="149,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173"/>
+        <Label x:Name="label7" Content="Название товара" HorizontalAlignment="Left" Margin="176,8,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label8" Content="гривен" HorizontalAlignment="Left" Margin="274,68,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.058,-0.406"/>
+        <Label x:Name="label9" Content="Вес" HorizontalAlignment="Left" Margin="160,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.61,0.611"/>
+        <TextBox x:Name="tb_weight" HorizontalAlignment="Left" Height="23" Margin="194,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label10" Content="грамм" HorizontalAlignment="Left" Margin="274,97,0,0" VerticalAlignment="Top" Width="48"/>
+        <ComboBox x:Name="pr_comboBox" HorizontalAlignment="Left" Margin="203,181,0,0" VerticalAlignment="Top" Width="119"/>
+        <ComboBox x:Name="st_comboBox" HorizontalAlignment="Left" Margin="202,208,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label11" Content="Проба" HorizontalAlignment="Left" Margin="151,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.974,0.346"/>
+        <Label x:Name="label12" Content="Камни" HorizontalAlignment="Left" Margin="151,206,0,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="81" Margin="0,248,0,0" VerticalAlignment="Top" Width="143">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="label13" Content="Описание товара" HorizontalAlignment="Left" Margin="32,222,0,0" VerticalAlignment="Top" Width="111"/>
+        <Button x:Name="refresh_button" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="12" RenderTransformOrigin="0.11,0.1" Click="refresh_button_Click" Height="12" Background="#FF88D419"/>
+    </Grid>
+</Window>
